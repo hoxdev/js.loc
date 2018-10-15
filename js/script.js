@@ -1,5 +1,3 @@
-function fumit(a) {
-    console.log(a);
-}
-
-fumit('test');
+/* поиск эелементов по id getElementById */
+var element = document.getElementById('box');
+console.log(element);
