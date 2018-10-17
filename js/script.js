@@ -1,7 +1,25 @@
-var test = {
+var link = document.querySelector('a');
+
+function handler(event) {
+    console.log('event target', event.target);
+    event.preventDefault();
+}
+
+window.addEventListener('click', handler);
+
+
+/*var element = document.querySelector('a');
+element.addEventListener('click', function () {
+   alert("Work");
+});*/
+
+/*element.onclick = function () {
+    alert('cool!');
+};*/
+/*var test = {
     question: function (num) {
-        var div = document.createElement('h3');
-        div.classList.add('h3-title');
+        var div = document.createElement('h5');
+        div.classList.add('h5');
         div.innerHTML = num +  '.' + 'Вопрос №' + num;
         document.body.appendChild(div);
     },
@@ -26,7 +44,7 @@ test.block(3);
 test.question(3);
 test.block(1);
 test.block(2);
-test.block(3);
+test.block(3);*/
 
 
 /*var student = {
