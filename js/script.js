@@ -1,12 +1,17 @@
-var link = document.querySelector('a');
 
+
+/*function someFunction() {
+    console.log('run');
+}
+
+setInterval(someFunction, 2000);*/
+
+/*var link = document.querySelector('a');
 function handler(event) {
     console.log('event target', event.target);
     event.preventDefault();
 }
-
-window.addEventListener('click', handler);
-
+window.addEventListener('click', handler);*/
 
 /*var element = document.querySelector('a');
 element.addEventListener('click', function () {
