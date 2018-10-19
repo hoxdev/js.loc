@@ -1,4 +1,8 @@
+var element = document.getElementById('text');
 
+element.addEventListener('click', function () {
+    alert('ooooooo');
+});
 
 /*function someFunction() {
     console.log('run');
