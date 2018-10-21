@@ -1,6 +1,8 @@
 $(function () {
     var $parag = $('p');
-    $parag.on('click', function () {
-        alert('aaaa');
+    $parag.on('click', function (event) {
+        $(this).animate({
+            opacity: 0
+        }, 500)
     });
 });
