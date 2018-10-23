@@ -1,8 +1,20 @@
-var element = document.getElementById('text');
+
+
+/*var elem = {
+    name: 'Tuzik',
+    age: 13
+};
+
+localStorage.setItem('animal', JSON.stringify(elem));
+
+var test = localStorage.getItem('animal');
+console.log(test);*/
+
+/*var element = document.getElementById('text');
 
 element.addEventListener('click', function () {
     alert('ooooooo');
-});
+});*/
 
 /*function someFunction() {
     console.log('run');
