@@ -1,9 +1,9 @@
 
-
 /*var elem = {
     name: 'Tuzik',
     age: 13
 };
+
 
 localStorage.setItem('animal', JSON.stringify(elem));
 
